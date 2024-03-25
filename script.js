@@ -12,6 +12,7 @@ document.getElementById('contact-form').addEventListener ('submit', function(eve
         document.getElementById('contact-form').reset();
     };
 
-    // git remote add origin https://github.com/Mher007/-.git
-    // git branch -M main
-    // git push -u origin main
+    // git status
+    // git add .
+    // git commit -m "1"
+    // git push

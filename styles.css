@@ -155,3 +155,10 @@ h1 {
   text-align: center;
   
 }
+.contact_botton {
+  float: auto;
+  right: auto;
+  padding-left: 30px;
+  padding-top: 10px;
+
+}

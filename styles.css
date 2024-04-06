@@ -177,7 +177,8 @@ h1 {
 }
 .social-icons a {
   position: relative;
-  background-color: #1d1f1c;
+  background-color: #f4f4f4;
+  /* #f4f4f4; */
   display: block;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -185,30 +186,31 @@ h1 {
   user-select: none;
   transition: background-color .3s ease-in-out;
   width: 2.9rem;
-  height: 2.5rem;
-  border-radius: .25rem;
+  height: 2.6rem;
+  border-radius: .5rem;
 }
 .social-icons a:hover {
   background-color: #e3a72f;
 }
 .social-icons a::before {
+  
   content: "";
   position: absolute;
   width: 2.3rem;
-  height: 2.2rem;
+  height: 2.3rem;
   left: 0.3rem;
   top: 0.3;
   background: transparent no-repeat center center;
   background-size: 100% 100%;
 }
 .social-icons .social-icon-mail::before {
-  background-image: url("");
+  background-image: url("Icons/mail.png");
 }
 .social-icons .social-icon-viber::before {
-  background-image: url("viber");
+  background-image: url("Icons/viber.png");
 }
-.social-icons .social-icon-whatsApp::before {
-  background-image: url("");
+.social-icons .social-icon-whatsapp::before {
+  background-image: url("Icons/whatsapp.png");
 }
 .social-icons .social-icon-telegram::before {
   background-image: url("Icons/telegram.png");

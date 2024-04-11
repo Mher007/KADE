@@ -35,7 +35,7 @@ h1 {
 }
 
 .equipment-item {
-  width: calc(50% - 10px);
+  width: calc(60% - 15x);
   margin-bottom: 20px;
   background-color: #fff;
   border-radius: 10px;
@@ -51,7 +51,7 @@ h1 {
   max-width: 100%;
   height: auto;
   display: block;
-  margin-bottom: 0px;
+  margin-bottom: auto;
   transition: transform 0.3s ease-in-out;
 }
 .equipment-item:hover .equipment-img {

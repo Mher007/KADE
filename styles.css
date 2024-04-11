@@ -218,3 +218,18 @@ h1 {
 .social-icons .social-icon-youtube::before {
   background-image: url("Icons/youtube.png");
 }
+
+.paragraph {
+  margin: 0;
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+.yandex-maps {
+  width: calc(60% - 15x);
+  margin-bottom: 20px;
+  background-color: #f4f4f4;;
+  border-radius: 10px;
+  overflow: hidden;
+  
+}

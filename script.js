@@ -1,3 +1,6 @@
+
+
+
 document.getElementById('contact-form').addEventListener ('submit', function(event));
  {
   event.preventDefault();
@@ -11,6 +14,8 @@ document.getElementById('contact-form').addEventListener ('submit', function(eve
   alert('Спасибо за ваше сообщение! Мы свяжемся с вами в ближайшее время.');
         document.getElementById('contact-form').reset();
     };
+
+    
 
     
 

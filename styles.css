@@ -147,14 +147,6 @@ h1 {
   background-color: #555;
 }
 
-.developer {
-  border-top: 5px solid #e3a72f;
-  background-color: #1d1f1c;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-  
-}
 .contact_botton {
   float: auto;
   right: auto;
@@ -193,7 +185,7 @@ h1 {
   background-color: #e3a72f;
 }
 .social-icons a::before {
-  
+
   content: "";
   position: absolute;
   width: 2.3rem;
@@ -203,6 +195,16 @@ h1 {
   background: transparent no-repeat center center;
   background-size: 100% 100%;
 }
+
+.yandex-maps {
+  width: calc(60% - 15x);
+  margin-bottom: 20px;
+  background-color: #f4f4f4;;
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
+
 .social-icons .social-icon-mail::before {
   background-image: url("Icons/mail.png");
 }
@@ -219,17 +221,19 @@ h1 {
   background-image: url("Icons/youtube.png");
 }
 
-.paragraph {
-  margin: 0;
-  font-size: 36px;
-  letter-spacing: 2px;
+.about-companies {
+  border-top: 5px solid #e3a72f;
+  background-color: #1d1f1c;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
 }
 
-.yandex-maps {
-  width: calc(60% - 15x);
-  margin-bottom: 20px;
-  background-color: #f4f4f4;;
-  border-radius: 10px;
-  overflow: hidden;
+.developer {
+  border-top: 5px solid #e3a72f;
+  background-color: #1d1f1c;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
   
 }

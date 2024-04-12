@@ -12,6 +12,8 @@ document.getElementById('contact-form').addEventListener ('submit', function(eve
         document.getElementById('contact-form').reset();
     };
 
+    
+
     // git status
     // git add .
     // git commit -m "1"

@@ -327,3 +327,8 @@ h1 {
   text-align: center;
   
 }
+
+.logo-developer{
+  max-width: 100px;
+  margin: 0 auto;
+}

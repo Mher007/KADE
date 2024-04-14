@@ -4,11 +4,15 @@ body {
   padding: 0;
   background-color: #f4f4f4;
 }
+.kade-ru{
+color: #1d1f1c;
+font-size: 1px;
+}
 
 /* слайдер изображений */
 .adaptivny-slayder {
   position: relative;
-  /* max-width: 680px; */
+  max-width: 680px;
   margin: 60px auto;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
   border-radius: 3%;
@@ -30,10 +34,10 @@ body {
   text-align: center;
   width: 100%;
   
-  
-  
-  
 }
+  
+  
+
 
 .kadoves label {
   display: inline-block;
@@ -164,23 +168,6 @@ h1 {
   background-color: #333;
   color: #fff;
 }
-/* .call-button {
-  font-size: 24px;
-  display: block;
-  width: 100%;
-  padding: 20px;
-  text-align: center;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  border-radius: 0px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-} */
-
-/* .call-button:hover {
-  background-color: #555;
-} */
 .container p {
   font-size: 18px;
   text-align: center;
@@ -319,6 +306,11 @@ h1 {
   background-color: #1d1f1c;
   color: #fff;
   padding: 5px;
+  text-align: center;
+}
+
+.contact {
+  border-top: 10px solid #e3a72f;
   text-align: center;
 }
 

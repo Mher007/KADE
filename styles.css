@@ -309,8 +309,13 @@ h1 {
   text-align: center;
 }
 
+.contact-form{
+  border-top: 5px solid #e3a72f;
+  text-align: center;
+}
+
 .contact {
-  border-top: 10px solid #e3a72f;
+  border-top: 5px solid #e3a72f;
   text-align: center;
 }
 

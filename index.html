@@ -41,19 +41,45 @@
      <!-- Загрузите библиотеку значков, чтобы отобразить меню гамбургера (бары) на маленьких экранах -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">Главная</a>
+        <a href="#logo-" class="active">Главная</a>
         <a href="#news">Новости</a>
-        <a href="#contact">Контакт</a>
-        <a href="#about">О Нас</a>
+        <a href="#contact-">Контакт</a>
+        <a href="#about-">О Нас</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
       </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+      
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+      
+            // Store hash
+            var hash = this.hash;
+      
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 2500, function(){
+      
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+      </script>
+
 <header>
-    <img src="img/KADE Logo.png"Логотип компании" class="logo">
-   
-
-
+    <img src="img/KADE Logo.png"Логотип компании" class="logo" id="logo-">
     <h1>Аренда спецтехники в Химках <p class="kade-ru"> КАДЕ техстрой</p></h1>
 </header>
 <!-- Кнопки соц сетей -->
@@ -142,7 +168,7 @@
           </ul>
 
            <!-- Про компании -->
-           <div class="about-companies">
+           <div class="about-companies" id="about-">
             <h2>О компании "КАДЕ техстрой"</h2>
            </div>
 
@@ -203,7 +229,7 @@
     </form>
    
 </div>
-<div class="contact">
+<div class="contact" id="contact-">
     <h3>Контакты</h3>
     <p>Телефон: <a href="tel:+7 999 554 8050">+7 999 554 8050</a></p>
     <p>Email: <a href="mailto: kade-techstroy@mail.ru">kade-techstroy@mail.ru</a></p>

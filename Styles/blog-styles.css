@@ -183,7 +183,7 @@ h1 {
 
 .logo-developer{
   max-width: 100px;
-  margin: 0 auto;
+  margin: 10px;
 }
 
 .selector {
@@ -192,4 +192,9 @@ h1 {
   background-image: url('Icons/images\ \(1\).jpg');
   background-repeat: repeat;
 
+}
+
+.YouTube {
+  width: auto;
+  height: auto;
 }

@@ -1,6 +1,16 @@
 
 
 
+/* Переключение между добавлением и удалением класса "responsive" в topnav, когда пользователь нажимает на значок */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
 document.getElementById('contact-form').addEventListener ('submit', function(event));
  {
   event.preventDefault();

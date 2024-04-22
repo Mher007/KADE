@@ -350,19 +350,19 @@ h1 {
 }
 
 .social-icons .social-icon-mail::before {
-  background-image: url("Icons/mail.png");
+  background-image: url("images/Icons/mail.png");
 }
 .social-icons .social-icon-viber::before {
-  background-image: url("Icons/viber.png");
+  background-image: url("images/Icons/viber.png");
 }
 .social-icons .social-icon-whatsapp::before {
-  background-image: url("Icons/whatsapp.png");
+  background-image: url("images/Icons/whatsapp.png");
 }
 .social-icons .social-icon-telegram::before {
-  background-image: url("Icons/telegram.png");
+  background-image: url("images/Icons/telegram.png");
 }
 .social-icons .social-icon-youtube::before {
-  background-image: url("Icons/youtube.png");
+  background-image: url("images/Icons/youtube.png");
 }
 
 .about-companies {

@@ -340,14 +340,6 @@ h1 {
   background-size: 100% 100%;
 }
 
-.yandex-maps {
-  width: calc(60% - 15x);
-  margin-bottom: 20px;
-  background-color: #f4f4f4;;
-  border-radius: 10px;
-  overflow: hidden;
-  
-}
 
 .social-icons .social-icon-mail::before {
   background-image: url("Icons/mail.png");
@@ -365,6 +357,14 @@ h1 {
   background-image: url("Icons/youtube.png");
 }
 
+.yandex-maps {
+  width: calc(60% - 15x);
+  margin-bottom: 20px;
+  background-color: #f4f4f4;;
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
 .about-companies {
   border-top: 5px solid #e3a72f;
   background-color: #1d1f1c;
@@ -401,7 +401,7 @@ h1 {
 #boton-call {
   position: fixed;
   z-index: 100;
-  bottom: 65px;
+  bottom: 405px;
   right: 0px;
   background-color: #e3a72f;
   color: white;
@@ -416,4 +416,49 @@ h1 {
  
 #boton-call:hover {
   background-color: #333;
+}
+/* Scroll To Top */
+.Scroll-To-Top {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 0;
+}
+
+.Scroll-To-Top>li {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+.Scroll-To-Top a {
+  position: relative;
+  background-color: #f4f4f4;
+  /* #f4f4f4; */
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: background-color .3s ease-in-out;
+  width: 2.9rem;
+  height: 2.6rem;
+  border-radius: .5rem;
+}
+.Scroll-To-Top a:hover {
+  background-color: #e3a72f;
+}
+.Scroll-To-Top a::before {
+
+  content: "";
+  position: absolute;
+  width: 2.3rem;
+  height: 2.3rem;
+  left: 0.3rem;
+  top: 0.3;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+.Scroll-To-Top .Scroll-To-Top-icon::before {
+  background-image: url("Icons/up-arrow.png");
 }

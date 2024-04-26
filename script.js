@@ -47,8 +47,13 @@ document.getElementById('contact-form').addEventListener ('submit', function(eve
   alert('Спасибо за ваше сообщение! Мы свяжемся с вами в ближайшее время.');
         document.getElementById('contact-form').reset();
     };
-
-    
+    // плавающую кнопку
+    document.getElementById('boton-call').addEventListener('click', function() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
 
     
 

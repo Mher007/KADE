@@ -69,8 +69,8 @@ body {
   background-color: #f4f4f4;
 }
 .kade-ru{
-color: #1d1f1c;
-font-size: 1px;
+color: #f4f4f4;
+font-size: 0px;
 }
 
 /* слайдер изображений */
@@ -152,7 +152,7 @@ font-size: 1px;
   border-radius: 3%;
 }
 
-#slaid1:checked~adaptivny-slayder-lasekun abusteku-deagulus {
+#slaid1:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
   transform: translate(0);
 }
 
@@ -350,19 +350,19 @@ h1 {
 }
 
 .social-icons .social-icon-mail::before {
-  background-image: url("images/Icons/mail.png");
+  background-image: url("icons/mail.png");
 }
 .social-icons .social-icon-viber::before {
-  background-image: url("images/Icons/viber.png");
+  background-image: url("Icons/viber.png");
 }
 .social-icons .social-icon-whatsapp::before {
-  background-image: url("images/Icons/whatsapp.png");
+  background-image: url("Icons/whatsapp.png");
 }
 .social-icons .social-icon-telegram::before {
-  background-image: url("images/Icons/telegram.png");
+  background-image: url("Icons/telegram.png");
 }
 .social-icons .social-icon-youtube::before {
-  background-image: url("images/Icons/youtube.png");
+  background-image: url("Icons/youtube.png");
 }
 
 .about-companies {
@@ -397,3 +397,23 @@ h1 {
   margin: 0 auto;
 }
 
+/*плавающую кнопку*/
+#boton-call {
+  position: fixed;
+  z-index: 100;
+  bottom: 65px;
+  right: 10px;
+  background-color: #e3a72f;
+  color: white;
+  border: none;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ 
+#boton-call:hover {
+  background-color: #333;
+}

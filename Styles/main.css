@@ -401,7 +401,7 @@ h1 {
 #boton-call {
   position: fixed;
   z-index: 100;
-  bottom: 65px;
+  bottom: 929px;
   right: 10px;
   background-color: #e3a72f;
   color: white;
@@ -409,7 +409,7 @@ h1 {
   padding: 15px 15px;
   text-align: center;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 18px;
   border-radius: 4px;
   cursor: pointer;
 }

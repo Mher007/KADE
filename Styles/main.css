@@ -72,6 +72,9 @@ body {
 color: #f4f4f4;
 font-size: 0px;
 }
+.text3 {
+  font-size: 10px;
+}
 
 /* слайдер изображений */
 .adaptivny-slayder {

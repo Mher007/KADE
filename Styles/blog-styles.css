@@ -170,6 +170,8 @@ h1 {
 .contact {
   border-top: 5px solid #e3a72f;
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: auto;
 }
 
 .developer {
@@ -200,4 +202,45 @@ h1 {
   font-size: 18px;
   text-align: center;
   margin-bottom: 20px;
+}
+/* Scroll To Top */
+.Scroll-To-Top {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  padding-left: 0;
+  /* width: 20.9rem;
+  height: 2.6rem; */
+}
+.Scroll-To-Top a {
+  position: relative;
+  background-color: #f4f4f4;
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: background-color .1s ease-in-out;
+  width: 2.9rem;
+  height: 2.9rem;
+}
+/* .Scroll-To-Top a:hover {
+  background-color: #e3a72f;
+} */ 
+.Scroll-To-Top a::before {
+
+  content: "";
+  position: absolute;
+  width: 4.3rem;
+  height: 4.3rem;
+  left: 0.3rem;
+  top: 0.3;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+  
+}
+.Scroll-To-Top .Scroll-To-Top-icon::before {
+  background-image: url("Icons/up-arrow.png");
 }

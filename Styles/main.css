@@ -409,7 +409,7 @@ h1 {
 }
 
 /*плавающую кнопку*/
-#boton-call {
+/* #boton-call {
   position: fixed;
   z-index: 100;
   bottom: 405px;
@@ -419,13 +419,19 @@ h1 {
   color: #f4f4f4;
   border: none;
   padding: 13px 10px;
-  text-align: center;
+  
   text-decoration: none;
   font-size: 18px;
   border-radius: 10px;
   cursor: pointer;
-}
+} */
 .btn {
+  position: fixed;
+  z-index: 100;
+  bottom: 405px;
+  right: 0px;
+  text-align: center;
+  cursor: pointer;
   display: inline-block;
   padding: 10px 20px;
   background-color: #e3a72f; /* Желтый цвет для кнопок */

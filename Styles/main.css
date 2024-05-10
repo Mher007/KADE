@@ -414,17 +414,26 @@ h1 {
   z-index: 100;
   bottom: 405px;
   right: 0px;
-  background-color: #e3a72f;
+  background-color:  #1d1f1c;
+ 
   color: #f4f4f4;
   border: none;
   padding: 13px 10px;
   text-align: center;
   text-decoration: none;
   font-size: 18px;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
 }
- 
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e3a72f; /* Желтый цвет для кнопок */
+  color: #333333; /* Темный цвет текста */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
 #boton-call:hover {
   background-color: #ffaa00;
 }

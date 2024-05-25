@@ -434,8 +434,8 @@ h1 {
   cursor: pointer;
   display: inline-block;
   padding: 10px 20px;
-  background-color: #e3a72f; /* Желтый цвет для кнопок */
-  color: #333333; /* Темный цвет текста */
+  background-color: #B24C4C; /* Желтый цвет для кнопок */
+  color: #ffffff; /* Темный цвет текста */
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s;
